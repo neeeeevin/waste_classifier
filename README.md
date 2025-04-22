@@ -31,7 +31,6 @@ gradio_environ/
 ├── requirements.txt        # Python dependencies
 ├── LICENSE
 ├── README.md
-```
 ## How to Run
 1. Ensure Model File is Available
 Place the trained model file (final_model_weights.hdf5) in the same directory as main.py.
@@ -77,4 +76,4 @@ Adjust the image size in main.py to match your model input.
 
 Modify class label mapping if your dataset uses more or different classes.
 
-```
+
