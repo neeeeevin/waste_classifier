@@ -33,7 +33,6 @@ gradio_environ/
 ├── README.md
 ```
 ## How to Run
-
 1. Ensure Model File is Available
 Place the trained model file (final_model_weights.hdf5) in the same directory as main.py.
 
@@ -48,8 +47,9 @@ MODEL_PATH = "your/custom/path/final_model_weights.hdf5"
 
 # For macOS/Linux
 source venv/bin/activate
+
+## 3. Launch the Application
 ```bash
-3. Launch the Application
 Use the following command to run the app:
 
 python app.py
