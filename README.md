@@ -31,12 +31,11 @@ gradio_environ/
 ├── requirements.txt        # Python dependencies
 ├── LICENSE
 ├── README.md
+```
 ## How to Run
 1. Ensure Model File is Available
 Place the trained model file (final_model_weights.hdf5) in the same directory as main.py.
-
 If your model is in a different location, update the path in main.py like this:
-
 MODEL_PATH = "your/custom/path/final_model_weights.hdf5"
 
 2. (Optional) Activate a Virtual Environment
