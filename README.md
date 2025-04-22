@@ -76,3 +76,14 @@ Adjust the image size in main.py to match your model input.
 Modify class label mapping if your dataset uses more or different classes.
 
 
+##  Model Weights
+
+The trained model weights are stored in a `.hdf5` file and are too large to be hosted directly on GitHub.
+
+👉 **Download the model weights from Google Drive**:  
+[Click here to download final_model_weights.hdf5](https://drive.google.com/file/d/1xPw7w3biAlu_sxMGzCsgxPUWbzuFJUaI/view?usp=sharing)
+
+---
+
+
+
