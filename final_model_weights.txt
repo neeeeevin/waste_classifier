@@ -1,0 +1,12 @@
+Model Weights Download
+
+The model weights are too large to be stored directly in this repository.
+
+Download from Google Drive:
+https://drive.google.com/file/d/1xPw7w3biAlu_sxMGzCsgxPUWbzuFJUaI/view?usp=sharing
+
+Steps:
+1. Download the .hdf5 file and place it in the project directory.
+2. Run your prediction script.
+
+
