@@ -31,7 +31,7 @@ gradio_environ/
 ├── requirements.txt        # Python dependencies
 ├── LICENSE
 ├── README.md
-
+```
 ## How to Run
 
 1. Ensure Model File is Available
@@ -48,12 +48,12 @@ MODEL_PATH = "your/custom/path/final_model_weights.hdf5"
 
 # For macOS/Linux
 source venv/bin/activate
-
+```bash
 3. Launch the Application
 Use the following command to run the app:
 
 python app.py
-
+```
 This will start a Gradio interface in your browser.
 
 Prediction Logic
