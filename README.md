@@ -22,9 +22,8 @@ Install the required packages using:
 ```bash
 pip install -r requirements.txt
 ```
-
+```bash
 ## File Structure
-
 gradio_environ/
 ├── app.py                  # Gradio interface code
 ├── main.py                 # Contains image preprocessing and prediction logic
@@ -78,3 +77,4 @@ Adjust the image size in main.py to match your model input.
 
 Modify class label mapping if your dataset uses more or different classes.
 
+```
