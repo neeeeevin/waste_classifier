@@ -22,8 +22,9 @@ Install the required packages using:
 ```bash
 pip install -r requirements.txt
 ```
-```bash
-File Structure
+
+## File Structure
+
 gradio_environ/
 ├── app.py                  # Gradio interface code
 ├── main.py                 # Contains image preprocessing and prediction logic
@@ -31,7 +32,9 @@ gradio_environ/
 ├── requirements.txt        # Python dependencies
 ├── LICENSE
 ├── README.md
-How to Run
+
+## How to Run
+
 1. Ensure Model File is Available
 Place the trained model file (final_model_weights.hdf5) in the same directory as main.py.
 
@@ -66,7 +69,7 @@ The model output is interpreted using:
 label = "Recyclable" if predicted_class == 1 else "Organic"
 Update this logic if your model uses different class labels.
 
-Customization
+## Customization
 To use your own model:
 
 Replace final_model_weights.hdf5 with your own .h5 file.
@@ -74,4 +77,4 @@ Replace final_model_weights.hdf5 with your own .h5 file.
 Adjust the image size in main.py to match your model input.
 
 Modify class label mapping if your dataset uses more or different classes.
-```
+
